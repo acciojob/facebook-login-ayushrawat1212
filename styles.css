@@ -1,1 +1,87 @@
 /*  your css code here. If applicable */
+body {
+      background-color: #f6f6f6;
+	 
+	display: flex;display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+/* Left section styling */
+.left {
+    width: 450px;
+	margin-top: 70px;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.left img {
+      width: 300px;
+	margin-left: -28px;
+	
+}
+
+
+
+/* Right section styling */
+    .right {
+      display: inline-block;
+    }
+
+/* Form styling */
+    form {
+      display: flex;
+		flex-direction: column;
+		width: 300px;
+		background-color: white;
+		padding: 20px;
+		border-radius: 5px;
+		box-shadow: 0 0 10px #ccc;
+		gap: 10px;
+	}
+
+/* Input fields styling */
+    form input {
+      border: 1px solid #ccc;
+		border-radius: 5px;
+      padding: 10px;
+		font-size: 14px;
+	}
+
+form button[type="submit"] {
+      background-color: #1877f2;
+      color: white;
+	border: none;
+      border-radius: 5px;
+	padding: 10px 20px;
+	width: 100%;
+      font-size: 16px;
+	font-weight: bold;
+      cursor: pointer;
+}
+
+/* Forgotten account link styling */
+    form a {
+      text-decoration: none;
+      color: #1877f2;
+		
+      margin-top: 5px;
+	}
+
+/* Signup button styling (Outside the form) */
+    .signup {
+      background-color: #42b72a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+		padding: 10px 20px;
+      font-size: 16px;
+		cursor: pointer;
+      display: block;
+		margin: 15px auto 0 auto;
+      
+    }
+	
+
